@@ -1,0 +1,44 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "server": "nodemon server",
+    "fix-code": "prettier-eslint --write './*.{js,jsx}' ",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.5",
+    "body-parser": "^1.19.0",
+    "expo": "^35.0.0",
+    "expo-font": "~7.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.1",
+    "morgan": "^1.9.1",
+    "native-base": "^2.13.8",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^9.0.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-web": "^0.11.7",
+    "tesseract.js": "^2.0.0-alpha.16"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0",
+    "concurrently": "^4.1.2",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.15.0",
+    "eslint-plugin-react-hooks": "^2.1.1",
+    "nodemon": "^1.19.2"
+  },
+  "private": true
+}
