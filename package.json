@@ -5,7 +5,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "server": "nodemon server",
+    "server": "nodemon --watch server server/index.js",
     "fix-code": "prettier-eslint --write './*.{js,jsx}' ",
     "eject": "expo eject"
   },
@@ -25,6 +25,8 @@
     "react-dom": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
     "react-native-web": "^0.11.7",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2",
     "tesseract.js": "^2.0.0-alpha.16"
   },
   "devDependencies": {
